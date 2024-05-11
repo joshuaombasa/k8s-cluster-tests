@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+*,*::after, *::before {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 800px;
+  margin: 2em auto;
+}
+
+.create-post{
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.create-post input, .create-post button{
+  padding: 0.5em ;
+}
+
+.create-post input {
+  outline: unset;
+}
+
+.create-post button {
+  font-weight: bold;
+}
+
+.post-item {
+  border: 1px solid rgb(237, 232, 232);
+  padding: 2em;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.create-comment {
+  display: flex;
+  gap: 1em;
+}
+
+.comments-list {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+
+.comments-list em {
+  padding: 0.5em;
+  background-color: rgb(235, 237, 244);
+}
